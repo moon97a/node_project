@@ -21,7 +21,7 @@ const dataSet = [
 
 
 
-app.get("/users/list", (req, res) => {
+app.get("/api/list", (req, res) => {
     console.log("요청이 들어옴..");
     res.send(dataSet);
 });
